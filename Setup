@@ -1,0 +1,15 @@
+sudo su 
+cd Desktop 
+git clone https://github.com/epsylon/ufonet
+cd Ufonet/
+python3 setup.py install
+python3 ufonet --download-zombies 
+(Yes/No) its Yes
+python3 ufonet --gui
+// if the gui command fails go to this - \
+                                         |
+                                         |
+                                         |
+                                         |
+                                         |
+http://127.0.0.1:9999 ------------------ /
